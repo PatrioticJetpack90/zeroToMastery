@@ -17,3 +17,9 @@ em.set_content("What up dude.")
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:  # Use SMTP_SSL for port 465
     smtp.login(email_sender, email_sender_password)
     smtp.sendmail(email_sender, email_receiver, em.as_string())
+
+
+
+# https://stackoverflow.com/questions/72480454/sending-email-with-python-google-disables-less-secure-apps
+
+# https://myaccount.google.com/apppasswords
