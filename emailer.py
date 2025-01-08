@@ -22,4 +22,4 @@ with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:  # Use SMTP_SSL for port 4
 
 # https://stackoverflow.com/questions/72480454/sending-email-with-python-google-disables-less-secure-apps
 
-# https://myaccount.google.com/apppasswords
+# https://myaccount.google.com/apppasswords 
