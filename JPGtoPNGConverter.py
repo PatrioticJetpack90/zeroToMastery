@@ -8,7 +8,7 @@ import os
 from PIL import Image
 
 directory = r"Your directory" #this should be the only line you likely new to change.
-new_folder_path = os.path.join(directory, "new")
+new_folder_path = os.path.join(directory, "new") # 'new' is the name chosen here. But, feel free change the name.
 
 # Create a new folder if it doesn't exist
 if not os.path.exists(new_folder_path):
